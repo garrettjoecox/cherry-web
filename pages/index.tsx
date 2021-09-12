@@ -70,7 +70,12 @@ const Home: NextPage = () => {
           </Heading>
           <Link href="https://testflight.apple.com/join/qTXFimQ1">
             <Button mt="4" size="lg" bgColor="red.400" color="white">
-              Join the iOS beta <ArrowForwardIcon />
+              iOS beta <ArrowForwardIcon />
+            </Button>
+          </Link>
+          <Link href="https://expo.dev/@cherryapp/cherry" ml="2"> 
+            <Button mt="4" size="lg" bgColor="red.400" color="white">
+              Android Beta <ArrowForwardIcon />
             </Button>
           </Link>
         </Box>
